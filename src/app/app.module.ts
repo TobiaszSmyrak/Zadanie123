@@ -16,6 +16,8 @@ import { MyInsetComponent } from './my-inset/my-inset.component';
 import { ImgfitComponent } from './imgfit/imgfit.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { BlogComponent } from './blog/blog.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { PersonalDetailsComponent } from './personal-details/personal-details.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { BlogComponent } from './blog/blog.component';
     ImgfitComponent,
     ProductCardComponent,
     BlogComponent,
+    HeroDetailComponent,
+    PersonalDetailsComponent,
   ],
   imports: [
     BrowserModule,

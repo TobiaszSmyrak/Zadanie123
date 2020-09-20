@@ -7,6 +7,7 @@ import {ProductsComponent} from "./products/products.component";
 import {VhomeComponent} from "./vhome/vhome.component";
 import {ImgfitComponent} from "./imgfit/imgfit.component";
 import {BlogComponent} from "./blog/blog.component";
+import {PersonalDetailsComponent} from "./personal-details/personal-details.component";
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'stats', component: StatsComponent },
   { path: 'fit', component: ImgfitComponent },
   { path: 'blog', component: BlogComponent },
+  { path: 'personal-details', component: PersonalDetailsComponent},
 ];
 
 @NgModule({
